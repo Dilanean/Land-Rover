@@ -109,7 +109,7 @@
   }
 
   .form__car-img {
-    width: 350px;
+    width: 100%;
   }
 
   .form__car {
@@ -171,6 +171,15 @@
 
     .characteristics__img {
       width: 100%;
+    }
+
+    .car__list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .car__list-item {
+      justify-self: center;
     }
   }
 
